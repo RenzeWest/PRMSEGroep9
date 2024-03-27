@@ -6,6 +6,7 @@ plugins {
 }
 
 group = "com.groep9"
+
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -34,7 +35,6 @@ dependencies {
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testImplementation("org.springframework.boot:spring-boot:3.2.4")
-
 }
 
 tasks.test {
